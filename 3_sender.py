@@ -4,7 +4,7 @@ import time
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
-channel.exchance_declare(exchange='logs', exchange_type='fanout')
+channel.exchange_declare(exchange='logs', exchange_type='fanout')
 
 messages = ["primeiro log,", "segundo log,", "terceiro log.","quarto log.","quinto log."]
 
