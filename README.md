@@ -1,0 +1,2 @@
+# RabbitMQ
+Projeto Rabbit MQ
