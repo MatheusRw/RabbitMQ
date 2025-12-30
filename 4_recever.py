@@ -1,6 +1,7 @@
 # O exchange do tipo direct envia mensagens para filas com base na chave de roteamento
 # a chave pode ser por exemplo logs de erro, info, debug 
-#  O exchange que distriui as mensagens para todas as filas ligadas a ele é o fanout
+# O exchange que distriui as mensagens para todas as filas ligadas a ele é o fanout
+#na hora de rodar o scruipt cada consumidor deve passar como argumento a severidade que quer receber
 
 import pika
 import sys
