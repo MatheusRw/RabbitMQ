@@ -1,3 +1,4 @@
+# Manda todas as mensagens recebidas para todos os consumidores
 import pika
 import time
 
