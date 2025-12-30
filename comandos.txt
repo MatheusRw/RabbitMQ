@@ -1,7 +1,7 @@
 # Habilita os plugins de Gerenciamento 
 rabbitmq-plugins enable rabbitmq_management
 
-# Inicializa o Serviço
+# Inicializa o Serviço - Login e senha: Guest
 
 Utiliza o localhost:15672
 

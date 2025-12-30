@@ -13,6 +13,6 @@ messages = ["primeira mensagem,", "segunda mensagem,", "terceira mensagem.","qua
 for message in messages:
     channel.basic_publish(exchange='', routing_key='hello', body=message)
     print(f" [x] Mensagem Enviada '{message}'")
-    time.sleep(1)  # Simula um atraso entre as mensagens
+    time.sleep(2)  # Simula um atraso entre as mensagens
 
 connection.close() 
