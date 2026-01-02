@@ -29,6 +29,7 @@ if not binding_keys:
 headers = {}
 headers["component"] = sys.argv[1]
 headers["severity"] = sys.argv[2]
+headers["x-match"] = "any"  # pode ser "any" ou "all"
 
 channel.queue_bind(exchange='headers_logs', queue=queue_name, arguments=headers)
 
