@@ -1,6 +1,8 @@
 #usando dead letter exchange para receber mensagens com routing key específica
 # Utilizado para ver os erros e entender por que a mensagem não foi entregue
 # serve para reprocessar as mensagens que falharam
+# utilize o comando python recever.py A.info para reproduzir os resultados 
+
 import pika
 import sys
 
